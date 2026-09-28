@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-time-series-exponential-smoothing-forecaster-skill"
+version = "1.0.0"
+description = "Zero-dependency Holt linear exponential smoothing engine forecasting numerical trends with multi-step horizon and variance confidence bands."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "data-science", "statistics", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-time-series-exponential-smoothing-forecaster-skill"
