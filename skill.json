@@ -1,0 +1,26 @@
+{
+  "name": "genpark-time-series-exponential-smoothing-forecaster-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency Holt linear exponential smoothing engine forecasting numerical trends with multi-step horizon and variance confidence bands.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "time-series",
+    "forecasting",
+    "exponential-smoothing",
+    "holt-linear",
+    "data-science",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "forecast",
+      "description": "Generate multi-step Holt linear forecast from time-series history."
+    },
+    {
+      "name": "run_benchmark_forecaster",
+      "description": "Run exponential smoothing forecaster benchmark."
+    }
+  ]
+}
